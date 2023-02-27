@@ -7,6 +7,10 @@ namespace Pelicula
     public class Pelicula
     {
         //Campos
+        public String titulo;
+        public Int16 año;
+        public String país;
+        public String director;
         private List<Actor> actores = new List<Actor>();
 
         //Constructores
@@ -46,6 +50,11 @@ namespace Pelicula
         static void Main(string[] args)
         {
             Console.WriteLine("Hello");
+
+            Pelicula p1 = new Pelicula();
+            p1.titulo = "La La Land";
+            
+
         }
     }
 }
